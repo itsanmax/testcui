@@ -3,7 +3,7 @@
 // ./components/common
 //import { User } from '@denui/denmark-ui-components/src/components/common/user/user.component';
 
-import { User, Input } from '@denui/denmark-ui-components/dist/main';
+import { User, Input, DenButton } from '@itsanmax/react-ui-components/dist/main';
 
 
 const TestUiCommon = () => {
@@ -18,11 +18,15 @@ const TestUiCommon = () => {
             User comp:
             <User name="Gopal" age="25" />
             
-            {/* <Input label="test" name="Title" 
+            <Input label="test" name="Title" 
                 onBlur={handleChange}
                 onKeyUp={handleChange}
                 onChange={handleChange}
-                helperText="Enter the Title" /> */}
+                helperText="Enter the Title" />
+
+            <DenButton variant="contained" color="primary">
+                Test
+            </DenButton>
 
             {/* <Input label="test" name="Title" 
                 onBlur={handleChange}
